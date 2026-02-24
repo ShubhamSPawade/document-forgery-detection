@@ -17,7 +17,6 @@ import io
 # ─── Page Config ────────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="Document Tampering Detection",
-    # page_icon="🔍",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -187,7 +186,7 @@ def main():
             # if show_ela:
             #     col1, col2, col3 = st.columns([1, 1, 1])
             # else:
-                
+
                 col1, col3 = st.columns([1, 1])
                 col2 = None
 
